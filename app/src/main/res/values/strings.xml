@@ -6,5 +6,13 @@
     <string name="category_beverages">Beverages</string>
     <string name="category_desserts">Desserts</string>
 
+    <string name="OrdHis_title">Order History</string>
+        <string name="OrdHis_backIconTxt">back</string>
+    <string name="OrdHiss_orderNo">Order Num#</string>
+    <string name="OrdHis_date">Date</string>
+    <string name="OrdHi_Address">Address</string>
+    <string name="OrdHis_Items">Items</string>
+
+
 
 </resources>
