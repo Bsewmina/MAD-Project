@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Pizza Express</string>
+    <string name="home_title">Category</string>
+    <string name="category_pizza">Pizza</string>
+    <string name="category_sides">Sides &amp; Others</string>
+    <string name="category_beverages">Beverages</string>
+    <string name="category_desserts">Desserts</string>
+
+
 </resources>
