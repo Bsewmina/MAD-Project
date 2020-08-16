@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/consLay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MyProfile">
@@ -53,7 +54,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -86,7 +87,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -119,7 +120,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -152,7 +153,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -185,7 +186,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -216,7 +217,7 @@
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -245,7 +246,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingTop="10dp"
+            android:paddingTop="25dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2">
@@ -272,6 +273,25 @@
 
 
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/botomRelativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/consLay">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+
+            android:id="@+id/botmNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F5F5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu" />
+
+    </RelativeLayout>
 
 
 
