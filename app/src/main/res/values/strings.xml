@@ -4,6 +4,10 @@
     <string name="button">button</string>
     <string name="icon">icon</string>
 
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="cart">Cart</string>
+
     <string name="app_name">Pizza Express</string>
     <string name="home_title">Category</string>
     <string name="category_pizza">Pizza</string>

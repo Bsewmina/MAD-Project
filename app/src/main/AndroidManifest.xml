@@ -10,18 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CategoryPizza">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Account">
 
         </activity>
-        <activity android:name=".MyProfile"></activity>
-        <activity android:name=".OrderHistory" />
-        <activity android:name=".Home" />
+        <activity android:name=".MyProfile">
+
+        </activity>
+        <activity android:name=".OrderHistory">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+        <activity android:name=".Home">
+
+
+        </activity>
         <activity android:name=".MainActivity" />
     </application>
 
