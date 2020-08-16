@@ -1,4 +1,9 @@
 <resources>
+
+    <string name="image">image</string>
+    <string name="button">button</string>
+    <string name="icon">icon</string>
+
     <string name="app_name">Pizza Express</string>
     <string name="home_title">Category</string>
     <string name="category_pizza">Pizza</string>
@@ -7,12 +12,20 @@
     <string name="category_desserts">Desserts</string>
 
     <string name="OrdHis_title">Order History</string>
-        <string name="OrdHis_backIconTxt">back</string>
+    <string name="OrdHis_backIconTxt">back</string>
     <string name="OrdHiss_orderNo">Order Num#</string>
     <string name="OrdHis_date">Date</string>
     <string name="OrdHi_Address">Address</string>
     <string name="OrdHis_Items">Items</string>
 
+    <string name="pro_title">My Profile</string>
+    <string name="pro_save">Save Changes</string>
+
+    <string name="acc_edit">edit details</string>
+    <string name="acc_points">Loyalty Points</string>
+    <string name="pro_tttt">My Profile</string>
+    <string name="pro_ttttt">My Profile</string>
+    <string name="pro_tt2">My Profile</string>
 
 
 </resources>
