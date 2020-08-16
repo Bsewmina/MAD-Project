@@ -20,12 +20,14 @@
 
     <string name="pro_title">My Profile</string>
     <string name="pro_save">Save Changes</string>
-
     <string name="acc_edit">edit details</string>
     <string name="acc_points">Loyalty Points</string>
-    <string name="pro_tttt">My Profile</string>
-    <string name="pro_ttttt">My Profile</string>
-    <string name="pro_tt2">My Profile</string>
+
+    <string name="cat_p_pizza1">Sausage Delight RS.999</string>
+    <string name="cat_p_pizza2">Meat Lovers Chicken Spicy RS.1200</string>
+    <string name="cat_p_pizza3">Super Supreme RS.800</string>
+    <string name="cat_p_pizza4">Prawn with Chicken Bacon &amp; Jalapeno RS.710</string>
+    <string name="cat_p_pizza5">My Profile</string>
 
 
 </resources>
