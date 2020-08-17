@@ -33,5 +33,62 @@
     <string name="cat_p_pizza4">Prawn with Chicken Bacon &amp; Jalapeno RS.710</string>
     <string name="cat_p_pizza5">My Profile</string>
 
+    <string name="app_name2">MAD_p1</string>
+
+    <string name="login">Login</string>
+
+    <string name="user_name">UserName</string>
+
+    <string name="pw">Password</string>
+
+    <string name="forgot_pw">FORGOT PASSWORD?</string>
+
+    <string name="become_member">BECOME A MEMBER</string>
+
+    <string name="first_name">First Name *</string>
+
+    <string name="last_name">Last Name *</string>
+
+    <string name="phone_number">Phone Number *</string>
+
+    <string name="email">Email</string>
+
+    <string name="password">Password *</string>
+
+    <string name="confirm_password">Confirm Password *</string>
+
+    <string name="value_offers">Everyday Value Offers</string>
+
+    <string name="msg1">Slicey Starting from Rs.750.00</string>
+
+    <string name="msg2">Feasty Starting from Rs.750.00</string>
+
+    <string name="msg3">Pastalicious Starting froRs.850.00</string>
+
+    <string name="option1">1ST OPTION</string>
+
+    <string name="option2">2ND OPTION</string>
+
+    <string name="option3">3RD OPTION</string>
+
+    <string name="dessert1">Chocolate Macaroons</string>
+
+    <string name="dessert1_price">Rs.200</string>
+
+    <string name="dessert1_des">Cashew nuts are packed with chocolate</string>
+
+    <string name="dessert2">Choco Lava Cake</string>
+
+    <string name="dessert2_price">Rs.300</string>
+
+    <string name="dessert2_des">Gooey thick chocolate melt covered with chocolate cake</string>
+
+    <string name="dessert3">Choco Bread Sticks</string>
+
+    <string name="dessert3_price">Rs.250</string>
+
+    <string name="dessert3_des">Chocolate chips and chocolate sause in a tasty oven baked bread</string>
+
+
 
 </resources>
