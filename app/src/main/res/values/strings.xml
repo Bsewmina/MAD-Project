@@ -58,4 +58,14 @@
     <string name="checkout_btn">CHECKOUT</string>
 
 
+
+
+    <string name="side1">Chicken Wings - BBQ RS.  410.00</string>
+    <string name="side2">Chicken Wings Garlic Parmesan RS. 450.00</string>
+    <string name="side3">Garlic Bread RS. 300.00</string>
+    <string name="side4">Cheesy Garlic Bread RS. 460.00</string>
+    <string name="side5">Potato Wedges RS. 420.00</string>
+    <string name="side6">Spicy Chicken Cheeseballs RS. 440.00</string>
+
+
 </resources>

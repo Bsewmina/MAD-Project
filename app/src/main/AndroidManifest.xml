@@ -44,6 +44,11 @@
 
 
         <activity android:name=".MyCart">
+
+        </activity>
+
+
+        <activity android:name=".CategorySides">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
