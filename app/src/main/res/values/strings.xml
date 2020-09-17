@@ -35,4 +35,27 @@
     <string name="test">test123</string>
 
 
+
+
+
+    <string name="text1">Review Your Oder</string>
+    <string name="text2">PLEASE ENTER THE DETAILS BELOW TO COMPLETE YOUR ODER</string>
+    <string name="text3">Your Delivery Address</string>
+    <string name="text4">Flat/House No*</string>
+    <string name="text5">ITEMS YOU HAVE SELECTED</string>
+    <string name="text6">Garden Fresh Delight</string>
+    <string name="text7">Crust: Classic Hand Tossed Toppings: Black Olives + Onion + Crisp Capsicum + Mushroom + Fresh Tomato + Golden Corn + Jalapeno + Cheese + Bell Pepper </string>
+    <string name="text8">FEEDBACK</string>
+    <string-array name="inquiry">
+        <item>Contact</item>
+        <item>Oder Inquiry</item>
+        <item>Oder Inquiry</item>
+        <item>complaint</item>
+    </string-array>
+    <string name="text9">If You Can Please Rate Us For Our Improvements</string>
+    <string name="text10">How was your pizza</string>
+    <string name="text11">What is your opinion of this app</string>
+    <string name="text12">How was your delivery</string>
+
+
 </resources>
