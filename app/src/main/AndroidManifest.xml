@@ -12,34 +12,69 @@
         <activity android:name=".CategoryPizza">
 
         </activity>
+
+
         <activity android:name=".Account">
 
         </activity>
+
+
         <activity android:name=".MyProfile">
 
         </activity>
+
+
         <activity android:name=".OrderHistory">
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
         </activity>
+
+
         <activity android:name=".Home">
 
+        </activity>
+
+
+        <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".MainActivity" />
+
 
         <activity android:name=".OrderReview">
+
+        </activity>
+
+
+        <activity android:name=".OrderDelivery">
+
+        </activity>
+
+
+        <activity android:name=".SelectedItems">
+
+        </activity>
+
+
+        <activity android:name=".Feedback">
+
+        </activity>
+
+
+        <activity android:name=".RateUs">
+
+        </activity>
+
+
+        <activity android:name=".Beverages">
+
+        </activity>
+
+
+        <activity android:name=".CategoryBeverages">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
