@@ -9,52 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-        <activity android:name=".CategoryPizza">
+        <activity android:name=".Pizza1_sausageDelight">
 
         </activity>
-
-
-        <activity android:name=".Account">
-
-        </activity>
-
-
-        <activity android:name=".MyProfile">
-
-        </activity>
-
-
-        <activity android:name=".OrderHistory">
-
-
-
-        </activity>
-
-
+        <activity android:name=".Favourites" />
+        <activity android:name=".CategoryPizza" />
+        <activity android:name=".Account" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".OrderHistory" />
         <activity android:name=".Home">
-
-        </activity>
-
-
-        <activity android:name=".MainActivity">
-
-        </activity>
-
-
-        <activity android:name=".MyCart">
-
-
-        </activity>
-
-
-        <activity android:name=".CategorySides">
-
-        </activity>
-
-
-        <activity android:name=".AboutUs">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,7 +25,11 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MyCart"/>
+        <activity android:name=".CategorySides"/>
+        <activity android:name=".AboutUs"/>
 
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
