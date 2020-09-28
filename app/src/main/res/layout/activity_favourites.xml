@@ -17,7 +17,7 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/ordHisBackIco"
+            android:id="@+id/backBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="10dp"
@@ -41,8 +41,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="473dp"
+        android:layout_width="411dp"
+        android:layout_height="549dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
@@ -61,8 +61,8 @@
 
                 android:layout_width="170dp"
                 android:layout_height="200dp"
-                android:layout_marginStart="10dp"
                 android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp">
 
@@ -97,9 +97,9 @@
 
                 android:layout_width="170dp"
                 android:layout_height="200dp"
+                android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
                 app:cardCornerRadius="15dp"
-                android:layout_margin="10dp"
                 app:cardElevation="10dp">
 
                 <LinearLayout
@@ -128,7 +128,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
 
         </androidx.gridlayout.widget.GridLayout>
