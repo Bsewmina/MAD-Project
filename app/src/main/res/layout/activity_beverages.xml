@@ -9,7 +9,6 @@
     android:background="#27000000"
     tools:context=".Beverages">
 
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="325dp"
@@ -41,10 +40,9 @@
         android:background="@drawable/box1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="0.944" />
 
     <ImageView
         android:id="@+id/imageView5"
