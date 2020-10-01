@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MyCart">
-
 
     <TextView
         android:id="@+id/textView"
@@ -23,14 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="451dp"
-        android:layout_height="327dp"
-        android:layout_marginTop="340dp"
-        android:src="@drawable/background"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -288,15 +281,15 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/checkout_btn"
         android:padding="12dp"
         android:text="@string/checkout_btn"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView12"

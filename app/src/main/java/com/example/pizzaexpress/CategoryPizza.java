@@ -14,6 +14,7 @@ public class CategoryPizza extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_pizza);
 
+
     //back button redirect to the home page
     final ImageView backImgBtn = findViewById(R.id.backBtn);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
@@ -38,8 +39,6 @@ public class CategoryPizza extends AppCompatActivity {
 
 
         });
-
-
 
 
 
