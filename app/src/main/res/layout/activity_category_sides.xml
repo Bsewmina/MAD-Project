@@ -7,14 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".CategorySides">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="451dp"
-        android:layout_height="327dp"
-        android:layout_marginTop="340dp"
-        android:src="@drawable/background"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
