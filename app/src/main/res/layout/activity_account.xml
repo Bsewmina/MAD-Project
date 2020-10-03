@@ -32,8 +32,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <ImageView
-        android:id="@+id/addImage"
+    <ImageButton
+        android:id="@+id/addImageImgBtn"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="56dp"
