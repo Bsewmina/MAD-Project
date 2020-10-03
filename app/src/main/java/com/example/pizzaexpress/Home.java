@@ -17,7 +17,6 @@ import com.google.android.material.navigation.NavigationView;
 public class Home extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +40,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),CategoryPizza.class);
+                Intent launchActivity1= new Intent(getApplicationContext(),CategorySides.class);
                 startActivity(launchActivity1);
 
             }

@@ -1,19 +1,18 @@
 package com.example.pizzaexpress;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Pizza1_sausageDelight extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class Sides1_chickenWingsBbq extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pizza1_sausage_delight);
+        setContentView(R.layout.activity_sides1_chicken_wings_bbq);
 
         //back button redirect to the home page
         final ImageView backImgBtn = findViewById(R.id.backBtn_cat);
@@ -21,7 +20,7 @@ public class Pizza1_sausageDelight extends AppCompatActivity {
 
             @Override
             public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),Home.class);
+                Intent launchActivity1= new Intent(getApplicationContext(),CategorySides.class);
                 startActivity(launchActivity1);
 
             }

@@ -30,6 +30,7 @@
         <activity android:name=".MyCart"/>
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
+        <activity android:name=".Sides1_chickenWingsBbq"/>
 
       
           <meta-data
