@@ -101,7 +101,7 @@ public class Home extends AppCompatActivity {
                         break;
 
                     case R.id.cart:
-                        startActivity(new Intent(getApplicationContext(),CategoryPizza.class));
+                        startActivity(new Intent(getApplicationContext(),MyCart.class));
                         break;
 
                     case R.id.favourite:
