@@ -21,7 +21,6 @@
     <string name="category_sides">Sides &amp; Others</string>
     <string name="category_beverages">Beverages</string>
     <string name="category_desserts">Desserts</string>
-
     <string name="OrdHis_title">Order History</string>
     <string name="OrdHis_backIconTxt">back</string>
     <string name="OrdHiss_orderNo">Order Num#</string>
@@ -46,7 +45,7 @@
     <string name="pizza4_price">RS.710</string>
     <string name="sizes">Sizes</string>
     <string name="plus">+</string>
-    <string name="_00">00</string>
+    <string name="_00">01</string>
     <string name="minus">-</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="description">Description</string>
@@ -73,6 +72,8 @@
     <string name="total_amt">2249.00</string>
 
     <string name="checkout_btn">CHECKOUT</string>
+
+
 
 
     <string name="side1">Chicken Wings - BBQ RS.  410.00</string>

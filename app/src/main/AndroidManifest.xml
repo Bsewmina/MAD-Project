@@ -9,48 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".beverages_pg6"></activity>
-        <activity android:name=".beverages_pg5" />
-        <activity android:name=".beverages_pg4" />
-        <activity android:name=".beverages_pg3" />
-        <activity android:name=".beverages_pg2" />
-        <activity android:name=".Pizza1_sausageDelight" />
-        <activity android:name=".Favourites">
-        </activity>
+
+        <activity android:name=".Pizza1_sausageDelight"/>
+        <activity android:name=".Favourites" />
         <activity android:name=".CategoryPizza" />
         <activity android:name=".Account" />
         <activity android:name=".MyProfile" />
         <activity android:name=".OrderHistory" />
-        <activity android:name=".Home" />
-        <activity android:name=".OrderReview" />
-        <activity android:name=".MyCart" />
-        <activity android:name=".CategorySides" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".SelectedItems" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Feedback">
+        <activity android:name=".Home"/>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RateUs" >
 
-        </activity>
 
-        <activity android:name=".Beverages_pg1" >
+        <activity android:name=".MyCart"/>
+        <activity android:name=".CategorySides"/>
+        <activity android:name=".AboutUs"/>
 
-        </activity>
-        <activity android:name=".CategoryBeverages">
+        <activity android:name=".OrderReview"/>
+        <activity android:name=".OrderDelivery"/>
+        <activity android:name=".SelectedItems"/>
+        <activity android:name=".Feedback"/>
+        <activity android:name=".RateUs"/>
+        <activity android:name=".CategoryBeverages"/>
 
-        </activity>
-
-        <activity android:name=".OrderDelivery" />
-
-        <meta-data
+          <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>
