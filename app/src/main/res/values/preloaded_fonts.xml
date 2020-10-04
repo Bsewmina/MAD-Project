@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+
         <!--<item>@font/</item>
         <item>@font/advent_pro</item>-->
         <item>@font/advent_pro_medium</item>
@@ -23,5 +24,10 @@
         <item>@font/work_sans_medium</item>
         <!--<item>@font/yatra_one</item>
         <item>@font/yeseva_one</item>-->
+
+        <item>@font/allerta_stencil</item>
+        <item>@font/lemon</item>
+        <item>@font/short_stack</item>
+
     </array>
 </resources>
