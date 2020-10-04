@@ -1,11 +1,15 @@
 package com.example.pizzaexpress;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CategoryPizza extends AppCompatActivity {
 
@@ -37,6 +41,35 @@ public class CategoryPizza extends AppCompatActivity {
             }
 
 
+        });
+
+        //////////////////////////////////////
+        //Bottom navigation bar
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
+
+        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+            @Override
+            public void onNavigationItemReselected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.Home:
+
+                        break;
+
+                    case R.id.cart:
+                        startActivity(new Intent(getApplicationContext(),MyCart.class));
+                        break;
+
+                    case R.id.favourite:
+                        startActivity(new Intent(getApplicationContext(),Favourites.class));
+                        break;
+
+                    case R.id.settings:
+                        startActivity(new Intent(getApplicationContext(),Account.class));
+                        break;
+                }
+
+            }
         });
 
 

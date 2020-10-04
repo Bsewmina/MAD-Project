@@ -35,8 +35,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="410dp"
-        android:layout_height="529dp"
+        android:layout_width="401dp"
+        android:layout_height="531dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +70,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imagePizza1"
+                        android:id="@+id/imagedessert1"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginStart="10dp"
@@ -82,12 +82,11 @@
                         android:layout_height="match_parent"
                         android:text="@string/cat_p_pizza1"
                         android:textAlignment="center"
-                        android:textColor="#000"/>
+                        android:textColor="#000" />
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
 
             <androidx.cardview.widget.CardView
@@ -253,7 +252,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imagePizza6"
+                        android:id="@+id/imagedessert6"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginStart="10dp"
