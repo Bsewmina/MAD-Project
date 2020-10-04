@@ -3,14 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/textview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#27000000"
-    tools:context=".Beverages">
+    android:background="@drawable/background"
+    tools:context=".CategoryBeverages">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView15"
         android:layout_width="325dp"
         android:layout_height="169dp"
         android:background="@drawable/box1"
@@ -22,30 +21,31 @@
         app:layout_constraintVertical_bias="0.645" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView16"
         android:layout_width="326dp"
         android:layout_height="172dp"
         android:background="@drawable/box1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView17"
         android:layout_width="325dp"
         android:layout_height="169dp"
         android:background="@drawable/box1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.971" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView9"
         android:layout_width="87dp"
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,19 +57,21 @@
         app:srcCompat="@drawable/logo" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/OrderReviewBackButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:clickable="true"
         app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
         app:srcCompat="?attr/homeAsUpIndicator" />
 
     <View
-        android:id="@+id/divider2"
+        android:id="@+id/divider4"
         android:layout_width="409dp"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
@@ -80,18 +82,19 @@
         app:layout_constraintVertical_bias="0.115" />
 
     <View
-        android:id="@+id/divider3"
+        android:id="@+id/divider5"
         android:layout_width="409dp"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintVertical_bias="0.202" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
@@ -119,7 +122,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView10"
         android:layout_width="106dp"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,7 +135,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView11"
         android:layout_width="169dp"
         android:layout_height="135dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -144,7 +147,7 @@
         app:srcCompat="@drawable/sevenup" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageView12"
         android:layout_width="104dp"
         android:layout_height="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -152,26 +155,26 @@
         app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.898"
+        app:layout_constraintVertical_bias="0.89"
         app:srcCompat="@drawable/water"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView21"
         android:layout_width="89dp"
         android:layout_height="22dp"
         android:text="Pepsi 500ML"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406"
+        app:layout_constraintVertical_bias="0.42"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/textView22"
         android:layout_width="89dp"
         android:layout_height="22dp"
         android:text="Water Bottle 500ML"
@@ -185,7 +188,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/textView23"
         android:layout_width="89dp"
         android:layout_height="22dp"
         android:text="7UP 500ML"
@@ -199,7 +202,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Soft Drink"
@@ -208,10 +211,10 @@
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.453" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Soft Drink"
@@ -223,7 +226,7 @@
         app:layout_constraintVertical_bias="0.703" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Soft Drink"
@@ -235,7 +238,7 @@
         app:layout_constraintVertical_bias="0.943" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rs. 150"
@@ -251,7 +254,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rs. 150"
@@ -267,7 +270,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rs. 150"
@@ -283,7 +286,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rs. 150"
@@ -298,136 +301,74 @@
         app:layout_constraintVertical_bias="0.812"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="41dp"
-        android:layout_height="40dp"
-        android:text="1"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:background="#000000"
+        android:text="Add to cart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
+        app:layout_constraintVertical_bias="0.68" />
 
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="41dp"
-        android:layout_height="40dp"
-        android:text="1"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:background="#000000"
+        android:text="Add to cart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.939" />
 
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="41dp"
-        android:layout_height="40dp"
-        android:text="1"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp"
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:background="#000000"
+        android:text="Add to cart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.927" />
+        app:layout_constraintVertical_bias="0.395" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.616"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.608"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:ignore="MissingConstraints" />
+    <!-- Navigation bar-->
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
+    <RelativeLayout
+        android:id="@+id/botomRelativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.774"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939"
-        app:srcCompat="@android:drawable/ic_menu_add" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687"
-        app:srcCompat="@android:drawable/ic_menu_add" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42"
-        app:srcCompat="@android:drawable/ic_menu_add" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+
+            android:id="@+id/FeedbackbtmNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F5F5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu" />
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

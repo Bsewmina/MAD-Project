@@ -53,8 +53,6 @@
     <string name="pizza1_descr">Chicken sausages AND onions with a double layer of mozzarella cheese.</string>
 
 
-
-
     <string name="cart_title">My Cart</string>
 
     <string name="cart1">Sausage Delight</string>
@@ -77,8 +75,6 @@
     <string name="checkout_btn">CHECKOUT</string>
 
 
-
-
     <string name="side1">Chicken Wings - BBQ RS.  410.00</string>
     <string name="side2">Chicken Wings Garlic Parmesan RS. 450.00</string>
     <string name="side3">Garlic Bread RS. 300.00</string>
@@ -91,10 +87,7 @@
     <string name="test">test123</string>
 
 
-
-
-
-    <string name="text1">Review Your Oder</string>
+    <string name="text1">Review Your Order</string>
     <string name="text2">PLEASE ENTER THE DETAILS BELOW TO COMPLETE YOUR ODER</string>
     <string name="text3">Your Delivery Address</string>
     <string name="text4">Flat/House No*</string>
@@ -103,15 +96,44 @@
     <string name="text7">Crust: Classic Hand Tossed Toppings: Black Olives + Onion + Crisp Capsicum + Mushroom + Fresh Tomato + Golden Corn + Jalapeno + Cheese + Bell Pepper </string>
     <string name="text8">FEEDBACK</string>
     <string-array name="inquiry">
+        <item>Inquiry Type*</item>
         <item>Contact</item>
         <item>Oder Inquiry</item>
         <item>Oder Inquiry</item>
         <item>complaint</item>
     </string-array>
+    <string-array name="title">
+        <item>Title*</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss.</item>
+        <item>Dr.</item>
+    </string-array>
     <string name="text9">If You Can Please Rate Us For Our Improvements</string>
     <string name="text10">How was your pizza</string>
     <string name="text11">What is your opinion of this app</string>
     <string name="text12">How was your delivery</string>
+
+    <string name="cat_D_Drink1">Coca Cola 500ml "\n" Rs 150</string>
+    <string name="cat_D_Drink2">Fanta 500ml "\n" Rs 150</string>
+    <string name="cat_D_Drink3">SevenUP 500ml "\n" Rs 150</string>
+    <string name="cat_D_Drink4">Mineral Water 500ml  "\n" Rs 150</string>
+    <string name="cat_D_Drink5">Strawberry Milkshake "\n" Rs 150</string>
+    <string name="cat_D_Drink6">Chocolate Milkshake "\n" Rs 150</string>
+
+    <string name="Drink1_price"> Rs 150</string>
+    <string name="Drink2_price"> Rs 150</string>
+    <string name="Drink3_price"> Rs 150</string>
+    <string name="Drink4_price"> Rs 150</string>
+    <string name="Drink5_price"> Rs 150</string>
+    <string name="Drink6_price"> Rs 150</string>
+
+    <string name="Drink1_name"> Coca Cola 500ml</string>
+    <string name="Drink2_name"> Fanta 500ml</string>
+    <string name="Drink3_name"> SevenUp 500ml</string>
+    <string name="Drink4_name"> Mineral Water 500ml</string>
+    <string name="Drink5_name"> Strawberry Milkshake 500ml</string>
+    <string name="Drink6_name"> Chocolate Milkshake</string>
 
 
 </resources>

@@ -16,7 +16,7 @@ public class CategoryPizza extends AppCompatActivity {
 
 
     //back button redirect to the home page
-    final ImageView backImgBtn = findViewById(R.id.backBtn);
+    final ImageView backImgBtn = findViewById(R.id.Drink5_BackButton);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
 
         @Override
