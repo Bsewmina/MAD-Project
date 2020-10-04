@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+      
         <activity android:name=".Pizza1_sausageDelight"/>
         <activity android:name=".Favourites" />
         <activity android:name=".CategoryPizza" />
@@ -26,9 +28,33 @@
             </intent-filter>
         </activity>
 
-        <meta-data
+       
+        <activity android:name=".MyCart"/>
+        <activity android:name=".CategorySides"/>
+        <activity android:name=".AboutUs"/>
+
+        <activity android:name=".OrderReview"/>
+        <activity android:name=".OrderDelivery"/>
+        <activity android:name=".SelectedItems"/>
+        <activity android:name=".Feedback"/>
+        <activity android:name=".RateUs"/>
+        <activity android:name=".Beverages"/>
+        <activity android:name=".CategoryBeverages"/>
+      
+      <activity android:name=".ValueOffers"/>
+        <activity android:name=".Optionselected" />
+        <activity android:name=".Login"/>
+        <activity android:name=".Dessert" />
+        <activity android:name=".Register" />
+      
+          <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" 
+                     
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+
     </application>
 
 </manifest>
