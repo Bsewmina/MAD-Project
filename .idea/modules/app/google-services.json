@@ -15,14 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "790643548363-asetfo158hirf4atb16hqimf503h37ju.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.pizzaexpress",
-            "certificate_hash": "74ddb7ebd0f74abee16f2e88cd5037dabe48e83c"
-          }
-        },
-        {
+
           "client_id": "790643548363-0oe7ovr14jvbh3mjgboq4dg1hjb9a1qk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
