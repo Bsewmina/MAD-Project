@@ -23,17 +23,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".MyCart"/>
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
 
         <activity android:name=".OrderReview"/>
-        <activity android:name=".OrderDelivery"/>
-        <activity android:name=".SelectedItems"/>
         <activity android:name=".Feedback"/>
         <activity android:name=".RateUs"/>
+        <activity android:name=".OrderDelivery"/>
+        <activity android:name=".SelectedItems"/>
         <activity android:name=".CategoryBeverages"/>
 
           <meta-data
