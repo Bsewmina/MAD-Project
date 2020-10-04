@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pizzaexpress">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-      
-        <activity android:name=".Pizza1_sausageDelight"/>
+
+        <activity android:name=".Pizza1_sausageDelight" />
         <activity android:name=".Favourites" />
         <activity android:name=".CategoryPizza" />
         <activity android:name=".Account" />
@@ -28,7 +25,7 @@
             </intent-filter>
         </activity>
 
-       
+
         <activity android:name=".MyCart"/>
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
@@ -40,16 +37,29 @@
         <activity android:name=".RateUs"/>
         <activity android:name=".Beverages"/>
         <activity android:name=".CategoryBeverages"/>
-      
-      <activity android:name=".ValueOffers"/>
-        <activity android:name=".Optionselected" />
+
+        <activity android:name=".ValueOffers"/>
         <activity android:name=".Login"/>
         <activity android:name=".Dessert" />
         <activity android:name=".Register" />
+
+
+        <activity android:name=".Displayed_Option_list"/>
+        <activity android:name=".Dessert6_whoopie"/>
+        <activity android:name=".Dessert5_stick" />
+        <activity android:name=".Dessert4_mooncake" />
+        <activity android:name=".Dessert3_banoffee" />
+        <activity android:name=".Dessert2_macaroon" />
+        <activity android:name=".Dessert1_lava" />
+        <activity android:name=".Offer3Options" />
+        <activity android:name=".Offer2Options" />
+        <activity android:name=".Offer1Options" />
+
       
           <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts"/>
+
 
 
     </application>
