@@ -43,6 +43,7 @@
         <activity android:name=".Dessert" />
         <activity android:name=".Register" />
 
+
         <activity android:name=".Displayed_Option_list"/>
         <activity android:name=".Dessert6_whoopie"/>
         <activity android:name=".Dessert5_stick" />
@@ -54,9 +55,11 @@
         <activity android:name=".Offer2Options" />
         <activity android:name=".Offer1Options" />
 
-        <meta-data
+      
+          <meta-data
             android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+            android:resource="@array/preloaded_fonts"/>
+
 
 
     </application>
