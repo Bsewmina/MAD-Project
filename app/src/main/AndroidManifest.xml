@@ -39,7 +39,6 @@
         <activity android:name=".CategoryBeverages"/>
 
         <activity android:name=".ValueOffers"/>
-        <activity android:name=".Optionselected" />
         <activity android:name=".Login"/>
         <activity android:name=".Dessert" />
         <activity android:name=".Register" />
