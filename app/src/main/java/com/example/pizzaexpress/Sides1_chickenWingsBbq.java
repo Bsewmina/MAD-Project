@@ -58,7 +58,7 @@ public class Sides1_chickenWingsBbq extends AppCompatActivity {
         addToCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dbRef = FirebaseDatabase.getInstance().getReference().child("Cart");
+                dbRef = FirebaseDatabase.getInstance().getReference().child("Cart/0712345674");
                 try {
 
                     crt.setItmName(vName.getText().toString().trim());
