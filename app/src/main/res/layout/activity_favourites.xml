@@ -74,7 +74,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imagePizza1"
+                        android:id="@+id/imagedessert1"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginStart="10dp"
@@ -111,7 +111,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imagePizza2"
+                        android:id="@+id/imagedessert2"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_marginStart="10dp"
