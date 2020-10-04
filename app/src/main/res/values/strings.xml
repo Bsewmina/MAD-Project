@@ -74,8 +74,6 @@
     <string name="checkout_btn">CHECKOUT</string>
 
 
-
-
     <string name="side1">Chicken Wings - BBQ RS.  410.00</string>
     <string name="side2">Chicken Wings Garlic Parmesan RS. 450.00</string>
     <string name="side3">Garlic Bread RS. 300.00</string>
@@ -136,5 +134,58 @@
     <string name="Drink5_name"> Strawberry Milkshake 500ml</string>
     <string name="Drink6_name"> Chocolate Milkshake</string>
 
+    <string name="app_name2">MAD_p1</string>
+
+    <string name="login">Login</string>
+
+    <string name="user_name">UserName</string>
+
+    <string name="pw">Password</string>
+
+    <string name="forgot_pw">FORGOT PASSWORD?</string>
+
+    <string name="become_member">BECOME A MEMBER</string>
+
+    <string name="first_name">First Name *</string>
+
+    <string name="last_name">Last Name *</string>
+
+    <string name="phone_number">Phone Number *</string>
+
+    <string name="email">Email</string>
+
+    <string name="password">Password *</string>
+
+    <string name="confirm_password">Confirm Password *</string>
+
+    <string name="value_offers">Everyday Value Offers</string>
+
+    <string name="msg1">Slicey \n\n Starting from \n Rs.750.00</string>
+    <string name="msg1_des"> A Personal Pan Pizza + 2 Spicy Chicken &amp; Cheese Balls + 1 Vanilla Shake or a Lava Cake   </string>
+    <string name="msg2">Feasty \n\n Starting from \n Rs.750.00</string>
+
+    <string name="msg3">Pastalicious \n\n Starting from \n Rs.850.00</string>
+
+    <string name="option1">1ST OPTION \n\n *Maximum of 1 item allowed from this option</string>
+    <string name="option2">2ND OPTION \n\n *Maximum of 1 item allowed from this option</string>
+    <string name="option3">3RD OPTION \n\n *Maximum of 1 item allowed from this option</string>
+
+    <string name="dessert1">Chocolate Macaroons \n RS.150 </string>
+    <string name="dessert1_des">Cashew nuts are packed with chocolate</string>
+    <string name="dessert2">Choco Lava Cake \n RS.200</string>
+    <string name="dessert2_des">Gooey thick chocolate melt covered with chocolate cake</string>
+    <string name="dessert3">Choco Bread Sticks \n RS.150 </string>
+    <string name="dessert3_des">Chocolate chips and chocolate sause in a tasty oven baked bread</string>
+    <string name="dessert4">Moon Cake \n RS.100 </string>
+    <string name="dessert4_des">Cotillons are a French dessert speciality with a sponge cake base, jelly and vanilla custard
+</string>
+    <string name="dessert5">Banoffee Cupcakes\n RS.100 </string>
+    <string name="dessert5_des">
+delicious banana cupcakes with a caramel topping</string>
+    <string name="dessert6">Chocolate Whoopie \n RS.200 </string>
+    <string name="dessert6_des">Chocolate Whoopie pie with chocolate buttons</string>
+    <string name="milk_shakes_300ml">Milk Shakes (300ml)</string>
+    <string name="chocolate_melt_lava_cake">Chocolate Melt Lava Cake</string>
+    <string name="_3rd_option">3RD OPTION</string>
 
 </resources>

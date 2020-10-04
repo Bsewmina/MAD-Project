@@ -125,7 +125,7 @@ public class Home extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.navOffers:
-                        startActivity(new Intent(getApplicationContext(), Account.class));
+                        startActivity(new Intent(getApplicationContext(), ValueOffers.class));
                         return true;
                     case R.id.navOrderhis:
                         startActivity(new Intent(getApplicationContext(), OrderHistory.class));

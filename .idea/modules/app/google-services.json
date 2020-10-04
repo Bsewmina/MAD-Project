@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "662512106411",
-    "firebase_url": "https://pizza-express-34b7b.firebaseio.com",
-    "project_id": "pizza-express-34b7b",
-    "storage_bucket": "pizza-express-34b7b.appspot.com"
+    "project_number": "790643548363",
+    "firebase_url": "https://pizza-express-5a0c1.firebaseio.com",
+    "project_id": "pizza-express-5a0c1",
+    "storage_bucket": "pizza-express-5a0c1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:662512106411:android:36227ac45c6a2f23d4f0ee",
+        "mobilesdk_app_id": "1:790643548363:android:0ad90134392d02c5bc3b4e",
         "android_client_info": {
           "package_name": "com.example.pizzaexpress"
         }
       },
       "oauth_client": [
         {
-          "client_id": "662512106411-t0phe4b01sjc6n42sfm5g5vjbtc00rg5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.pizzaexpress",
-            "certificate_hash": "c512a79598b92d98e103f6fa83913a37577647a5"
-          }
-        },
-        {
-          "client_id": "662512106411-e16km16fskbfe1qq196ka55338f3akgu.apps.googleusercontent.com",
+          "client_id": "790643548363-flau1crokulve6jvnc0u691aqms6i9qs.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlCRniZEnqILC2BL0Wf_-OaX7w967fzcI"
+          "current_key": "AIzaSyATXqAJiEa-h4cNr5_Aqzh8cHDcHfxlNPs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "662512106411-e16km16fskbfe1qq196ka55338f3akgu.apps.googleusercontent.com",
+              "client_id": "790643548363-flau1crokulve6jvnc0u691aqms6i9qs.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
