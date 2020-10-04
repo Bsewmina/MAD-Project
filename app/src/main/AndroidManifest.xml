@@ -22,10 +22,7 @@
         <activity android:name=".OrderHistory" />
         <activity android:name=".Home"/>
         <activity android:name=".MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
 
@@ -33,13 +30,20 @@
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
 
-        <activity android:name=".OrderReview"/>
-        <activity android:name=".OrderDelivery"/>
-        <activity android:name=".SelectedItems"/>
+        <activity android:name=".OrderReview">
+
+        </activity>
         <activity android:name=".Feedback"/>
         <activity android:name=".RateUs"/>
-        <activity android:name=".OrderDelivery"/>
-        <activity android:name=".SelectedItems"/>
+        <activity android:name=".OrderDelivery">
+
+        </activity>
+        <activity android:name=".SelectedItems">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".CategoryBeverages"/>
 
         <activity android:name=".ValueOffers"/>
