@@ -44,7 +44,7 @@ public class Pizza1_sausageDelight extends AppCompatActivity {
         switch (radioGroup.getCheckedRadioButtonId()) {
             case R.id.size_small:
                 price.setText("Rs. 750");
-                // Toast.makeText(this, "alignLeft", Toast.LENGTH_SHORT).show();
+                 Toast.makeText(this, "alignLeft", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.size_medium:
                 price.setText("Rs. 990");
