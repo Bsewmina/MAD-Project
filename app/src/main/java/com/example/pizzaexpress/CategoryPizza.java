@@ -60,7 +60,7 @@ public class CategoryPizza extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                Intent intObj= new Intent(getApplicationContext(),Pizza1_sausageDelight.class);
+                Intent intObj= new Intent(getApplicationContext(),Pizza3_SuperSupreme.class);
                 startActivity(intObj);
             }
 
@@ -72,7 +72,7 @@ public class CategoryPizza extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                Intent intObj= new Intent(getApplicationContext(),Pizza1_sausageDelight.class);
+                Intent intObj= new Intent(getApplicationContext(),Pizza4_PrawnwithChickenBacon.class);
                 startActivity(intObj);
             }
 
