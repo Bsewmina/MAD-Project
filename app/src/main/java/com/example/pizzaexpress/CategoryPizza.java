@@ -31,7 +31,7 @@ public class CategoryPizza extends AppCompatActivity {
     });
 
         //Navigate inside the Item
-        CardView cardObj = findViewById(R.id.backBtn_cat);
+        CardView cardObj = findViewById(R.id.catg_1);
         cardObj.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -43,9 +43,43 @@ public class CategoryPizza extends AppCompatActivity {
 
         });
 
-        //////////////////////////////////////
-        //Bottom navigation bar
+        CardView cardObj2 = findViewById(R.id.catg_2);
+        cardObj2.setOnClickListener(new View.OnClickListener(){
 
+            @Override
+            public void onClick(View v){
+                Intent intObj= new Intent(getApplicationContext(),Pizza2_MeatLoversChicken.class);
+                startActivity(intObj);
+            }
+
+
+        });
+
+        CardView cardObj3 = findViewById(R.id.catg_3);
+        cardObj3.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intObj= new Intent(getApplicationContext(),Pizza1_sausageDelight.class);
+                startActivity(intObj);
+            }
+
+
+        });
+
+        CardView cardObj4 = findViewById(R.id.catg_4);
+        cardObj4.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intObj= new Intent(getApplicationContext(),Pizza1_sausageDelight.class);
+                startActivity(intObj);
+            }
+
+
+        });
+
+        //Bottom navigation bar
         BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
@@ -53,7 +87,7 @@ public class CategoryPizza extends AppCompatActivity {
             public void onNavigationItemReselected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.Home:
-
+                        startActivity(new Intent(getApplicationContext(),Home.class));
                         break;
 
                     case R.id.cart:

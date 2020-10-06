@@ -89,7 +89,6 @@ public class Home extends AppCompatActivity {
 
         //////////////////////////////////////
         //Bottom navigation bar
-
         BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {

@@ -1,13 +1,19 @@
 package com.example.pizzaexpress;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -34,6 +40,7 @@ public class MyProfile extends AppCompatActivity {
         submitBtn = findViewById(R.id.profileSubmit);
 
         userObj = new UserProfile();
+
 
 
         //add data to DB
@@ -80,6 +87,44 @@ public class MyProfile extends AppCompatActivity {
 
         });
 
+        //back button redirect to the home page
+        final ImageView backImgBtn = findViewById(R.id.accBtn);
+        backImgBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v1) {
+                Intent launchActivity1= new Intent(getApplicationContext(),Account.class);
+                startActivity(launchActivity1);
+
+            }
+        });
+
+        //Bottom navigation bar
+        BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
+
+        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+            @Override
+            public void onNavigationItemReselected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.Home:
+                        startActivity(new Intent(getApplicationContext(),Home.class));
+                        break;
+
+                    case R.id.cart:
+                        startActivity(new Intent(getApplicationContext(),MyCart.class));
+                        break;
+
+                    case R.id.favourite:
+                        startActivity(new Intent(getApplicationContext(),Favourites.class));
+                        break;
+
+                    case R.id.settings:
+                        startActivity(new Intent(getApplicationContext(),Account.class));
+                        break;
+                }
+
+            }
+        });
 
 
         }

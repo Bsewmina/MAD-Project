@@ -11,14 +11,17 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -121,6 +124,45 @@ public class Account extends AppCompatActivity {
             }
         });
 
+
+        //back button redirect to the home page
+        final ImageView backImgBtn = findViewById(R.id.backBtn);
+        backImgBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v1) {
+                Intent launchActivity1= new Intent(getApplicationContext(),Home.class);
+                startActivity(launchActivity1);
+
+            }
+        });
+
+        //Bottom navigation bar
+        BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
+
+        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+            @Override
+            public void onNavigationItemReselected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.Home:
+                        startActivity(new Intent(getApplicationContext(),Home.class));
+                        break;
+
+                    case R.id.cart:
+                        startActivity(new Intent(getApplicationContext(),MyCart.class));
+                        break;
+
+                    case R.id.favourite:
+                        startActivity(new Intent(getApplicationContext(),Favourites.class));
+                        break;
+
+                    case R.id.settings:
+                        startActivity(new Intent(getApplicationContext(),Account.class));
+                        break;
+                }
+
+            }
+        });
 
     }
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pizza1_sausageDelight">
+    tools:context=".Pizza3_SuperSupreme">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -33,7 +33,9 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="2dp"
-        android:src="@drawable/pizza1"
+        android:src="@drawable/pizza3"
+        android:scaleX="1.7"
+        android:scaleY="1.7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/pizza1_name"
+        android:text="@string/pizza3_name"
         android:textColor="#000"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -58,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/pizza1_price"
+        android:text="@string/pizza3_price"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.863"
@@ -232,7 +234,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="@string/pizza1_descr"
+        android:text="@string/pizza3_descr"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.585"
@@ -260,6 +262,5 @@
             app:menu="@menu/menu" />
 
     </RelativeLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
