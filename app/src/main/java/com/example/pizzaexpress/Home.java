@@ -41,7 +41,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),CategoryPizza.class);
+                Intent launchActivity1= new Intent(getApplicationContext(),CategorySides.class);
                 startActivity(launchActivity1);
 
             }
@@ -53,7 +53,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),CategoryPizza.class);
+                Intent launchActivity1= new Intent(getApplicationContext(),Beverages.class);
                 startActivity(launchActivity1);
 
             }
@@ -65,7 +65,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),CategoryPizza.class);
+                Intent launchActivity1= new Intent(getApplicationContext(),Dessert.class);
                 startActivity(launchActivity1);
 
             }
