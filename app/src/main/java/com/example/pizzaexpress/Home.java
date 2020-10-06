@@ -17,7 +17,6 @@ import com.google.android.material.navigation.NavigationView;
 public class Home extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
