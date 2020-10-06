@@ -2,7 +2,6 @@ package com.example.pizzaexpress;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,15 +14,13 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-
-public class Pizza1_sausageDelight extends AppCompatActivity {
-
-    TextView qty;
+public class Pizza3_SuperSupreme extends AppCompatActivity {
+    private TextView qty;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pizza1_sausage_delight);
+        setContentView(R.layout.activity_pizza2__meat_lovers_chicken);
 
         qty = findViewById(R.id.itemQty);
 
@@ -73,22 +70,19 @@ public class Pizza1_sausageDelight extends AppCompatActivity {
 
 
 
-
-
-
     //Size selection method
     public void onAlignmentSelected(View view) {
         TextView price = findViewById(R.id.price);
         RadioGroup radioGroup = findViewById(R.id.radioGroup);
         switch (radioGroup.getCheckedRadioButtonId()) {
             case R.id.size_small:
-                price.setText("Rs. 750");
+                price.setText("Rs. 550");
                 break;
             case R.id.size_medium:
-                price.setText("Rs. 990");
+                price.setText("Rs. 800");
                 break;
             case R.id.size_large:
-                price.setText("Rs. 1550");
+                price.setText("Rs. 1400");
                 break;
 
         }

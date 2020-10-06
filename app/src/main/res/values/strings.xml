@@ -40,9 +40,6 @@
     <string name="test">test123</string>
 
 
-
-
-
     <string name="text1">Review Your Oder</string>
     <string name="text2">PLEASE ENTER THE DETAILS BELOW TO COMPLETE YOUR ODER</string>
     <string name="text3">Your Delivery Address</string>
@@ -76,7 +73,10 @@
     <string name="minus">-</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="description">Description</string>
-    <string name="pizza1_descr">Chicken sausages AND onions with a double layer of mozzarella cheese.</string>
+    <string name="pizza1_descr">Chicken sausages &amp; onions with a double layer of mozzarella cheese.</string>
+    <string name="pizza2_descr">Topped with a combination of chicken bacon, chicken sausage, BBQ chicken and spicy chicken.</string>
+    <string name="pizza3_descr">Chicken bacon, chicken sausage and olives with a double layer of mozzarella cheese.</string>
+    <string name="pizza4_descr">Succulent prawns with pieces of chicken bacon</string>
 
 
     <string name="cart_title">My Cart</string>
@@ -167,5 +167,9 @@ delicious banana cupcakes with a caramel topping</string>
     <string name="milk_shakes_300ml">Milk Shakes (300ml)</string>
     <string name="chocolate_melt_lava_cake">Chocolate Melt Lava Cake</string>
     <string name="_3rd_option">3RD OPTION</string>
+    <string name="profile">Profile</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
 
 </resources>
