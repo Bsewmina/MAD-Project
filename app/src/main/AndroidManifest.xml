@@ -19,10 +19,7 @@
         <activity android:name=".OrderHistory" />
         <activity android:name=".Home"/>
         <activity android:name=".MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
 
@@ -39,16 +36,27 @@
         <activity android:name=".CategoryBeverages"/>
 
         <activity android:name=".ValueOffers"/>
-        <activity android:name=".Login"/>
+        <activity android:name=".Login">
+      
+    </activity>
         <activity android:name=".Dessert" />
-        <activity android:name=".Register" />
+        <activity android:name=".Register" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
 
         <activity android:name=".Displayed_Option_list"/>
         <activity android:name=".Dessert6_whoopie"/>
         <activity android:name=".Dessert5_stick" />
-        <activity android:name=".Dessert4_mooncake" />
-        <activity android:name=".Dessert3_banoffee" />
+        <activity android:name=".Dessert4_mooncake" >
+
+    </activity>
+
+    <activity android:name=".Dessert3_banoffee" />
         <activity android:name=".Dessert2_macaroon" />
+
         <activity android:name=".Dessert1_lava" />
         <activity android:name=".Offer3Options" />
         <activity android:name=".Offer2Options" />
