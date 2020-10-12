@@ -71,14 +71,12 @@ public class OrderReview extends AppCompatActivity {
 
                dbRef.child(String.valueOf(maxid+1)).setValue(oderInfo);
 
-
                Toast.makeText(OrderReview.this,"Data Inserted Successfully!",Toast.LENGTH_LONG).show();
+
            }
        });
-
-
-
     }
+
 
     public void openNextActivity(){
         Intent intent = new Intent(this, OrderDelivery.class);
