@@ -45,11 +45,11 @@ import com.google.firebase.database.FirebaseDatabase;
 
                         if (mPassword.getText().length() < 7)
                             Toast.makeText(getApplicationContext(), "Password is not valid", Toast.LENGTH_SHORT).show();
-                        if (mEmail.getText().length() < 1)
+                        else if (mEmail.getText().length() < 1)
                             Toast.makeText(getApplicationContext(), "Email is required", Toast.LENGTH_SHORT).show();
-                        if (mPhone.getText().length() < 10)
+                        else if (mPhone.getText().length() < 10)
                             Toast.makeText(getApplicationContext(), "Phone number is not valid", Toast.LENGTH_SHORT).show();
-                        if (mFullName.getText().length() < 1)
+                        else if (mFullName.getText().length() < 1)
                             Toast.makeText(getApplicationContext(), "Full Name is required", Toast.LENGTH_SHORT).show();
                         else {
 
@@ -66,7 +66,7 @@ import com.google.firebase.database.FirebaseDatabase;
                             ref.child(phoneNo).setValue(user);
 
                             Toast.makeText(getApplicationContext(), "Account created successfully!", Toast.LENGTH_SHORT).show();
-                            Intent newInt = new Intent(Register.this, MainActivity.class);
+                            Intent newInt = new Intent(Register.this, Login.class);
                             newInt.putExtra("pno",phoneNo);
                             startActivity(newInt);
                         }
