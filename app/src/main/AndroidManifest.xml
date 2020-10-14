@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-      
-        <activity android:name=".Pizza1_sausageDelight"/>
+
+        <activity android:name=".Pizza1_sausageDelight" />
         <activity android:name=".Favourites" />
         <activity android:name=".CategoryPizza" />
         <activity android:name=".Account" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
 
-       
+
         <activity android:name=".MyCart"/>
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
@@ -56,9 +56,11 @@
         <activity android:name=".Offer2Options" />
         <activity android:name=".Offer1Options" />
 
-        <meta-data
+
+          <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts"/>
+
 
 
     </application>
