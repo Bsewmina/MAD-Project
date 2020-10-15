@@ -38,7 +38,7 @@ public class OrderDelivery extends AppCompatActivity {
         txtHno = (EditText)findViewById(R.id.addNo);
         txtstreet = (EditText)findViewById(R.id.streetName);
         txtcity = (EditText)findViewById(R.id.cityName);
-        btnSave = (Button)findViewById(R.id.buttonSave);
+        btnSave = (Button)findViewById(R.id.deliverybuttonSave);
 
         transaction = new Transaction();
 
@@ -72,6 +72,8 @@ public class OrderDelivery extends AppCompatActivity {
 
 
                 Toast.makeText(OrderDelivery.this,"Data Inserted Successfully!",Toast.LENGTH_LONG).show();
+                openNextActivity();
+
             }
         });
 
@@ -103,7 +105,7 @@ public class OrderDelivery extends AppCompatActivity {
             }
         });
         //back button
-        final ImageView backImgBtn = findViewById(R.id.OrderReviewBackButton);
+        final ImageView backImgBtn = findViewById(R.id.OrderDeliveryBackButton);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -113,6 +115,11 @@ public class OrderDelivery extends AppCompatActivity {
 
             }
         });
+
+    }
+    public void openNextActivity() {
+        Intent intent = new Intent(getApplicationContext(), SelectedItems.class);
+        startActivity(intent);
     }
 }
 

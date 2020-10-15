@@ -20,7 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class SelectedItems extends AppCompatActivity {
 
-    TextView item,price;
+    TextView item,price,qty;
     Button btn;
     DatabaseReference dbref;
 
@@ -29,20 +29,21 @@ public class SelectedItems extends AppCompatActivity {
         setContentView(R.layout.activity_selected_item);
 
 
-        item=(TextView)findViewById(R.id.textView8);
-        price=(TextView)findViewById(R.id.textView13);
+        item = (TextView)findViewById(R.id.textView8);
+        price = (TextView)findViewById(R.id.itemPrice);
+        qty = (TextView)findViewById(R.id.textView6);
+        btn = (Button)findViewById(R.id.deliverybuttonSave);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dbref= FirebaseDatabase.getInstance().getReference().child("Cart").child("0712348674").child("Item1");
+                dbref= FirebaseDatabase.getInstance().getReference().child("Cart").child("0712345674").child("item1");
                 dbref.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        String i=snapshot.child("itemName").getValue().toString();
+                        String i=snapshot.child("itmName").getValue().toString();
                         String p=snapshot.child("price").getValue().toString();
+                        String q=snapshot.child("qty").getValue().toString();
                         item.setText(i);
                         price.setText(p);
+                        qty.setText(q);
 
                     }
 
@@ -50,10 +51,9 @@ public class SelectedItems extends AppCompatActivity {
                     public void onCancelled(@NonNull DatabaseError error) {
 
                     }
-                });
-            }
-        });
 
+
+        });
 
 
 

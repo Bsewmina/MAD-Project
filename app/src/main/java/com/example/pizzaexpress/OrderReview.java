@@ -2,6 +2,7 @@ package com.example.pizzaexpress;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -35,76 +36,36 @@ public class OrderReview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order_review);
 
-       txtFname = (EditText)findViewById(R.id.Fname);
-       txtLname = (EditText)findViewById(R.id.Lname);
-       txtEmail = (EditText)findViewById(R.id.email);
-       txtPno = (EditText)findViewById(R.id.phoneNumber);
-       btnSave = (Button)findViewById(R.id.buttonSave);
-
-       oderInfo = new OderInfo();
-
-       dbRef = FirebaseDatabase.getInstance().getReference().child("OderInfo");
-       dbRef.addValueEventListener(new ValueEventListener() {
-           @Override
-           public void onDataChange(@NonNull DataSnapshot snapshot) {
-               if(snapshot.exists())
-                   maxid=(snapshot.getChildrenCount());
-           }
-
-           @Override
-           public void onCancelled(@NonNull DatabaseError error) {
-
-           }
-       });
-       btnSave.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               String fname = (txtFname.getText().toString().trim());
-               String lname = (txtLname.getText().toString().trim());
-               String email = (txtEmail.getText().toString().trim());
-               int pNo = Integer.parseInt(txtPno.getText().toString().trim());
-
-               oderInfo.setFname(txtFname.getText().toString().trim());
-               oderInfo.setLname(txtLname.getText().toString().trim());
-               oderInfo.setEmail(txtEmail.getText().toString().trim());
-               oderInfo.setpNo(pNo);
-
-               dbRef.child(String.valueOf(maxid+1)).setValue(oderInfo);
-
-               Toast.makeText(OrderReview.this,"Data Inserted Successfully!",Toast.LENGTH_LONG).show();
-
-           }
-       });
-    }
-
-
-    public void openNextActivity(){
-        Intent intent = new Intent(this, OrderDelivery.class);
-        startActivity(intent);
+        txtFname = (EditText) findViewById(R.id.Fname);
+        txtLname = (EditText) findViewById(R.id.Lname);
+        txtEmail = (EditText) findViewById(R.id.email);
+        txtPno = (EditText) findViewById(R.id.phoneNumber);
+        btnSave = (Button) findViewById(R.id.buttonSave);
 
         //////////////////////////////////////
         //Bottom navigation bar
 
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.OderReviewbotmNavBar);
 
-        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
+        bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener(){
             @Override
-            public void onNavigationItemReselected(@NonNull MenuItem item) {
+            public void onNavigationItemReselected (@NonNull MenuItem item){
                 switch (item.getItemId()) {
                     case R.id.Home:
 
                         break;
 
                     case R.id.cart:
-                        startActivity(new Intent(getApplicationContext(),MyCart.class));
+                        startActivity(new Intent(getApplicationContext(), MyCart.class));
                         break;
 
                     case R.id.favourite:
-                        startActivity(new Intent(getApplicationContext(),Favourites.class));
+                        startActivity(new Intent(getApplicationContext(), Favourites.class));
                         break;
 
                     case R.id.settings:
-                        startActivity(new Intent(getApplicationContext(),Account.class));
+                        startActivity(new Intent(getApplicationContext(), Account.class));
                         break;
                 }
 
@@ -112,16 +73,97 @@ public class OrderReview extends AppCompatActivity {
         });
         //back button
         final ImageView backImgBtn = findViewById(R.id.OrderReviewBackButton);
-        backImgBtn.setOnClickListener(new View.OnClickListener() {
+        backImgBtn.setOnClickListener(new View.OnClickListener()
+
+        {
 
             @Override
-            public void onClick(View v1) {
-                Intent launchActivity1= new Intent(getApplicationContext(),MyCart.class);
+            public void onClick (View v1){
+                Intent launchActivity1 = new Intent(getApplicationContext(), MyCart.class);
                 startActivity(launchActivity1);
 
             }
         });
 
 
+
+
+
+
+
+
+
+
+
+        oderInfo = new OderInfo();
+
+        dbRef = FirebaseDatabase.getInstance().getReference().child("OderInfo");
+        dbRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists())
+                    maxid = (snapshot.getChildrenCount());
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (TextUtils.isEmpty(txtFname.getText().toString().trim())) {
+
+                    txtFname.setError("Enter User Name");
+                    txtFname.requestFocus();
+                }
+
+                if (TextUtils.isEmpty(txtLname.getText().toString().trim())) {
+
+                    txtLname.setError("Enter User Name");
+                    txtLname.requestFocus();
+                }
+
+                if (TextUtils.isEmpty(txtEmail.getText().toString().trim())) {
+
+                    txtEmail.setError("Enter User Name");
+                    txtEmail.requestFocus();
+                }
+
+                if (TextUtils.isEmpty(txtPno.getText().toString().trim())) {
+
+                    txtPno.setError("Enter User Name");
+                    txtPno.requestFocus();
+                }
+                //String lname = (txtLname.getText().toString().trim());
+                // String email = (txtEmail.getText().toString().trim());
+
+
+                else {
+                    oderInfo.setFname(txtFname.getText().toString().trim());
+                    oderInfo.setLname(txtLname.getText().toString().trim());
+                    oderInfo.setEmail(txtEmail.getText().toString().trim());
+                    int pNo = Integer.parseInt(txtPno.getText().toString().trim());
+                    oderInfo.setpNo(pNo);
+
+                    dbRef.child(String.valueOf(maxid + 1)).setValue(oderInfo);
+
+                    Toast.makeText(OrderReview.this, "Data Inserted Successfully!", Toast.LENGTH_LONG).show();
+                    openNextActivity();
+
+                }
+            }
+        });
     }
+
+
+    public void openNextActivity() {
+        Intent intent = new Intent(getApplicationContext(), OrderDelivery.class);
+        startActivity(intent);
+    }
+
+
+
+
 }

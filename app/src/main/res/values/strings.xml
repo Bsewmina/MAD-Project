@@ -91,7 +91,7 @@
     <string name="text3">Your Delivery Address</string>
     <string name="text4">Flat/House No*</string>
     <string name="text5">ITEMS YOU HAVE SELECTED</string>
-    <string name="text6">Garden Fresh Delight</string>
+    <!--<string name="text6">Garden Fresh Delight</string>-->
     <string name="text7">Crust: Classic Hand Tossed Toppings: Black Olives + Onion + Crisp Capsicum + Mushroom + Fresh Tomato + Golden Corn + Jalapeno + Cheese + Bell Pepper </string>
     <string name="text8">FEEDBACK</string>
     <!--><string-array name="inquiry">

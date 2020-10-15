@@ -35,15 +35,17 @@
         <activity android:name=".AboutUs"/>
 
 
-        <activity android:name=".OrderReview"/>
-        <activity android:name=".OrderDelivery"/>
-        <activity android:name=".SelectedItems"/>
-        <activity android:name=".Feedback">
+        <activity android:name=".OrderReview">
+
+        </activity>
+        <activity android:name=".OrderDelivery">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SelectedItems"/>
+        <activity android:name=".Feedback"/>
         <activity android:name=".RateUs"/>
         <activity android:name=".CategoryBeverages"/>
         <activity android:name=".Beverages_pg1"/>
