@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/Drink5_BackButton"
+        android:id="@+id/backBtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="10dp"
@@ -190,7 +190,7 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
 
-            android:id="@+id/FeedbackbtmNavBar"
+            android:id="@+id/beverageBackNavBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#F8F5F5"

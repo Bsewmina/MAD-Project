@@ -86,7 +86,7 @@ public class SelectedItems extends AppCompatActivity {
 
         //Bottom navigation bar
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.FeedbackbtmNavBar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.selectedBackNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
             @Override

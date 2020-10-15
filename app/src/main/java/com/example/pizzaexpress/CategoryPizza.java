@@ -1,13 +1,14 @@
 package com.example.pizzaexpress;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -20,7 +21,7 @@ public class CategoryPizza extends AppCompatActivity {
 
 
     //back button redirect to the home page
-    final ImageView backImgBtn = findViewById(R.id.Drink5_BackButton);
+    final ImageView backImgBtn = findViewById(R.id.backBtn);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
 
         @Override

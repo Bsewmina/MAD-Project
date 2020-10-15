@@ -18,7 +18,7 @@ public class CategoryBeverages extends AppCompatActivity {
         setContentView(R.layout.activity_category_beverages);
 
        //back button
-        final ImageView backImgBtn = findViewById(R.id.Drink5_BackButton);
+        final ImageView backImgBtn = findViewById(R.id.beverageBackButton);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -33,7 +33,7 @@ public class CategoryBeverages extends AppCompatActivity {
 
         //Bottom navigation bar
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.FeedbackbtmNavBar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.beverageBackNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
             @Override

@@ -1,15 +1,15 @@
 package com.example.pizzaexpress;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
@@ -90,7 +90,7 @@ public class Home extends AppCompatActivity {
         //////////////////////////////////////
         //Bottom navigation bar
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.FeedbackbtmNavBar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
             @Override

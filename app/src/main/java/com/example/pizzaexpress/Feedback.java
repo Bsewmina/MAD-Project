@@ -198,7 +198,7 @@ public class Feedback extends AppCompatActivity {
 //        });
 
         //back button
-        final ImageView backImgBtn = findViewById(R.id.Drink5_BackButton);
+        final ImageView backImgBtn = findViewById(R.id.Feedbck_BackButton);
         backImgBtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -211,7 +211,7 @@ public class Feedback extends AppCompatActivity {
 
         //Bottom navigation bar
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.FeedbackbtmNavBar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.feedbackBackNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {
             @Override

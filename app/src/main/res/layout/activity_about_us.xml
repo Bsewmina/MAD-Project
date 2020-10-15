@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/Drink5_BackButton"
+        android:id="@+id/backBtn"
         android:layout_width="42dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
