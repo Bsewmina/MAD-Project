@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         layoutobj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent obj = new Intent(getApplicationContext(),Home.class);
+                Intent obj = new Intent(getApplicationContext(),Login.class);
                 startActivity(obj);
             }
         });

@@ -7,16 +7,52 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ValueOffers extends AppCompatActivity {
 
+    Button offer1Btn;
+    Button offer2Btn;
+    Button offer3Btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_value_offers);
+
+
+
+        offer1Btn = findViewById(R.id.button12);
+        offer2Btn = findViewById(R.id.button15);
+        offer3Btn = findViewById(R.id.button4);
+
+
+
+        offer1Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Offer1Options.class));
+            }
+        });
+
+
+        offer2Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Offer2Options.class));
+            }
+        });
+
+
+        offer3Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Offer3Options.class));
+            }
+        });
 
 
 
