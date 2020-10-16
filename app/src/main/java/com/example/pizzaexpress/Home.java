@@ -17,7 +17,6 @@ import com.google.android.material.navigation.NavigationView;
 public class Home extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,7 +88,6 @@ public class Home extends AppCompatActivity {
 
         //////////////////////////////////////
         //Bottom navigation bar
-
         BottomNavigationView bottomNavigationView = findViewById(R.id.botmNavBar);
 
         bottomNavigationView.setOnNavigationItemReselectedListener(new BottomNavigationView.OnNavigationItemReselectedListener() {

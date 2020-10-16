@@ -73,7 +73,10 @@
     <string name="minus">-</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="description">Description</string>
-    <string name="pizza1_descr">Chicken sausages AND onions with a double layer of mozzarella cheese.</string>
+    <string name="pizza1_descr">Chicken sausages &amp; onions with a double layer of mozzarella cheese.</string>
+    <string name="pizza2_descr">Topped with a combination of chicken bacon, chicken sausage, BBQ chicken and spicy chicken.</string>
+    <string name="pizza3_descr">Chicken bacon, chicken sausage and olives with a double layer of mozzarella cheese.</string>
+    <string name="pizza4_descr">Succulent prawns with pieces of chicken bacon</string>
 
 
     <string name="cart_title">My Cart</string>
@@ -106,6 +109,9 @@
     <string name="side6">Spicy Chicken Cheeseballs RS. 440.00</string>
     <string name="about_title">About Us</string>
     <string name="about_text">Pizza Express, a subsidiary of Yum! Brands, is the world\'s largest pizza company and home of Pan Pizza. Pizza Hut began 60 years ago in Wichita, Kansas, and today is an iconic global brand that delivers more pizza, pasta and wings than any other restaurant in the world.   Since its inception in 1993, Pizza Express has fast become a household name across Sri Lanka. With its first restaurant at Union Place, Colombo 2, Pizza Express became the first international restaurant chain to begin operations in Sri Lanka. Pizza Express is a brand name belonging to global restaurant chain Yum Brands Incorporated which is based in USA. It is the world\'s largest restaurant company   In 1999, Pizza Express ventured into the home delivery service setting yet another innovative milestone in Sri Lanka. With the launch of its island-wide delivery hotline 011 2 729729, Pizza Hut delivery rose swiftly to provide 50% of the restaurant\'s net sales.   To date, Pizza Express Sri Lanka employs over 1800 staff members with diverse backgrounds. As an equal opportunity employer, Pizza Express utilizes 1% of its annual income towards training and welfare. The company strongly believes in creating a results oriented fun working environment.   Over the past 24 years, Pizza Express has grown from strength to strength. At Pizza Express, we believe in delighting the senses of each and every customer. This is why all dine-in outlets offer a unique family friendly dine-in experience whilst effectively capturing the gastronomic palate of the Sri Lankan consumer with innovative additions to its menu. Currently Pizza Express serves a wide range of pizza toppings with an exciting selection of special crusts as well as appetizers, pastas, rice, desserts and beverages.</string>
+    <string name="sides1_name">Chicken Wings - BBQ</string>
+    <string name="sides1_descr"><![CDATA[Succulent chicken wings tossed in our famous BBQ sauce & baked to perfection]]></string>
+    <string name="side1_price">RS.800</string>
 
 
     <string name="app_name2">MAD_p1</string>
@@ -161,5 +167,9 @@ delicious banana cupcakes with a caramel topping</string>
     <string name="milk_shakes_300ml">Milk Shakes (300ml)</string>
     <string name="chocolate_melt_lava_cake">Chocolate Melt Lava Cake</string>
     <string name="_3rd_option">3RD OPTION</string>
+    <string name="profile">Profile</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
 
 </resources>

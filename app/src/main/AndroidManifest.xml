@@ -7,12 +7,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/pizza_express"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/pizza_express"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".DialogQuantityActivity"/>
+
+        <activity android:name=".Pizza4_PrawnwithChickenBacon" />
+        <activity android:name=".Pizza3_SuperSupreme" />
+        <activity android:name=".Pizza2_MeatLoversChicken" />
         <activity android:name=".Pizza1_sausageDelight" />
         <activity android:name=".Favourites" />
         <activity android:name=".CategoryPizza" />
@@ -27,22 +32,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyCart" />
-        <activity android:name=".CategorySides" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".OrderReview" />
-        <activity android:name=".OrderDelivery" />
-        <activity android:name=".SelectedItems" />
-        <activity android:name=".Feedback" />
-        <activity android:name=".RateUs" />
-        <activity android:name=".Beverages" />
-        <activity android:name=".CategoryBeverages" />
-        <activity android:name=".ValueOffers" />
-        <activity android:name=".Login" />
-        <activity android:name=".Dessert" />
-        <activity android:name=".Register"/>
 
-        <activity android:name=".Displayed_Option_list"/>
+        <activity android:name=".MyCart"/>
+        <activity android:name=".CategorySides"/>
+        <activity android:name=".AboutUs"/>
+        <activity android:name=".Sides1_chickenWingsBbq"/>
+
+        <activity android:name=".OrderReview"/>
+        <activity android:name=".OrderDelivery"/>
+        <activity android:name=".SelectedItems"/>
+        <activity android:name=".Feedback"/>
+        <activity android:name=".RateUs"/>
+        <activity android:name=".Beverages"/>
+        <activity android:name=".CategoryBeverages"/>
+
+        <activity android:name=".ValueOffers"/>
+        <activity android:name=".Login"/>
+
+        <activity android:name=".Dessert" />
+        <activity android:name=".Register" />
+        <activity android:name=".Displayed_Option_list" />
         <activity android:name=".Dessert6_whoopie" />
         <activity android:name=".Dessert5_stick" />
         <activity android:name=".Dessert4_mooncake" />
