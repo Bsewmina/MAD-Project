@@ -54,13 +54,14 @@
 
             <androidx.cardview.widget.CardView
 
-                android:id="@+id/backBtn_cat"
+                android:id="@+id/item_dessert1"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="10dp"
                 android:clickable="true"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="10dp">
+                app:cardElevation="10dp"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,12 +95,14 @@
 
             <androidx.cardview.widget.CardView
 
-                android:id="@+id/backBtn_cat2"
+                android:id="@+id/item_dessert2"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="10dp"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="10dp">
+                android:clickable="true"
+                app:cardElevation="10dp"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -133,11 +136,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/item_dessert3"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
+                android:clickable="true"
                 app:cardCornerRadius="15dp"
-                app:cardElevation="10dp">
+                app:cardElevation="10dp"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -171,10 +177,12 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/item_dessert4"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="15dp"
+                android:clickable="true"
                 app:cardElevation="10dp">
 
                 <LinearLayout
@@ -209,10 +217,12 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/item_dessert5"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="15dp"
+                android:clickable="true"
                 app:cardElevation="10dp">
 
                 <LinearLayout
@@ -245,10 +255,12 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/item_dessert6"
                 android:layout_width="170dp"
                 android:layout_height="200dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="15dp"
+                android:clickable="true"
                 app:cardElevation="10dp">
 
                 <LinearLayout

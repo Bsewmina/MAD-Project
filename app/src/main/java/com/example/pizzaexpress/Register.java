@@ -26,7 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.activity_register);
-
+                //init layout views
                 mFullName = findViewById(R.id.fullName);
                 mEmail = findViewById(R.id.Email);
                 mPassword = findViewById(R.id.password);
@@ -53,14 +53,15 @@ import com.google.firebase.database.FirebaseDatabase;
                             Toast.makeText(getApplicationContext(), "Full Name is required", Toast.LENGTH_SHORT).show();
                         else {
 
-
+                            //get data from User class
                             String name= mFullName.getText().toString().trim();
                             String email   =mEmail.getText().toString().trim();
                             String phoneNo  = mPhone.getText().toString().trim();
                             String password= mPassword.getText().toString().trim();
                             String address = mAddress.getText().toString().trim();
+                            String points = "20.00";
 
-                            User user= new User(email,password,name,phoneNo,address);
+                            User user= new User(email,password,name,phoneNo,address,points);
 
 
                             ref.child(phoneNo).setValue(user);

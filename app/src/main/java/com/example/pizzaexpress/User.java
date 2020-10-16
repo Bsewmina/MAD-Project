@@ -7,16 +7,18 @@ public class User {
     String name;
     String phoneNo;
     String address;
+    String points;
 
     public   User(){
     }
 
-    public User(String email, String password, String name, String phoneNo, String address) {
+    public User(String email, String password, String name, String phoneNo, String address, String points) {
         this.email = email;
         this.password = password;
         this.name = name;
         this.phoneNo = phoneNo;
         this.address = address;
+        this.points = points;
     }
 
     public String getEmail() {
@@ -55,9 +57,18 @@ public class User {
         return address;
     }
 
-    public void setAddress(String address) {
+    public String getPoints() {
+        return points;
+    }
+
+    public void setPoints(String points) {
+        this.points = points;
+    }
+
+    public void setAddress(String points) {
         this.address = address;
     }
+
 }
 
 

@@ -40,9 +40,6 @@
     <string name="test">test123</string>
 
 
-
-
-
     <string name="text1">Review Your Oder</string>
     <string name="text2">PLEASE ENTER THE DETAILS BELOW TO COMPLETE YOUR ODER</string>
     <string name="text3">Your Delivery Address</string>
@@ -146,7 +143,7 @@
     <string name="option1">1ST OPTION \n\n *Maximum of 1 item allowed from this option</string>
     <string name="option2">2ND OPTION \n\n *Maximum of 1 item allowed from this option</string>
     <string name="option3">3RD OPTION \n\n *Maximum of 1 item allowed from this option</string>
-
+    <string name="s_delight">Chicken sausages and onions with  a double layer \n of mozzarella cheese</string>
     <string name="dessert1">Chocolate Macaroons \n RS.150 </string>
     <string name="dessert1_des">Cashew nuts are packed with chocolate</string>
     <string name="dessert2">Choco Lava Cake \n RS.200</string>

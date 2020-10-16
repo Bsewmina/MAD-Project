@@ -55,9 +55,13 @@ public class Login extends AppCompatActivity {
                             if (mPhone.getText().toString().equalsIgnoreCase(details1.getPhoneNo().toString()) &&
                                     mPassword.getText().toString().equalsIgnoreCase(details1.getPassword().toString())) {
 
+                                Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
+
                                 String data = mPhone.getText().toString().trim();
 
                                 Intent intent = new Intent(Login.this, Home.class);
+
+                                _gVariables.uPhoneNum = details1.getPhoneNo();
 
                                 intent.putExtra("pno",data);
 
@@ -65,12 +69,15 @@ public class Login extends AppCompatActivity {
                                 break;
 
                             }
-                            if (!mPhone.getText().toString().equalsIgnoreCase(details1.getPhoneNo().toString()) &&
-                                    !mPassword.getText().toString().equalsIgnoreCase(details1.getPassword().toString()))
-                            {
+                            //else {
+                                //!mPhone.getText().toString().equalsIgnoreCase(details1.getPhoneNo().toString()) &&
+                                 //   !mPassword.getText().toString().equalsIgnoreCase(details1.getPassword().toString()))
+
                                 //Longin failed feedback
-                                Toast.makeText(Login.this, "password and email mismatch", Toast.LENGTH_SHORT).show();
-                            }
+                                //Toast.makeText(Login.this, "password and email mismatch", Toast.LENGTH_SHORT).show();
+
+                           // }
+
                         }
                     }
 
