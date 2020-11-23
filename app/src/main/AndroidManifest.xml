@@ -30,6 +30,7 @@
         <activity android:name=".CategorySides"/>
         <activity android:name=".AboutUs"/>
         <activity android:name=".Sides1_chickenWingsBbq"/>
+        <activity android:name=".Sides2_chickenWingsGarlic"/>
 
         <activity android:name=".OrderReview"/>
         <activity android:name=".OrderDelivery"/>

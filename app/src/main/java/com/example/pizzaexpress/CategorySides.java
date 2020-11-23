@@ -28,13 +28,26 @@ public class CategorySides extends AppCompatActivity {
             }
         });
 
-        //Navigate inside the Item
+        //Navigate inside the Sides1
         CardView cardObj = findViewById(R.id.sideCard1);
         cardObj.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v){
                 Intent intObj= new Intent(getApplicationContext(),Sides1_chickenWingsBbq.class);
+                startActivity(intObj);
+            }
+
+
+        });
+
+        //Navigate inside the Sides2
+        CardView cardObj2 = findViewById(R.id.sideCard2);
+        cardObj2.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intObj= new Intent(getApplicationContext(),Sides2_chickenWingsGarlic.class);
                 startActivity(intObj);
             }
 

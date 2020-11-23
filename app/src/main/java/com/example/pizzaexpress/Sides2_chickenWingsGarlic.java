@@ -1,6 +1,6 @@
 package com.example.pizzaexpress;
 
-import android.app.Activity;
+import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Sides1_chickenWingsBbq extends AppCompatActivity {
+public class Sides2_chickenWingsGarlic extends AppCompatActivity {
 
     //variable declaration
     TextView qty, vName, vPrice;
@@ -24,13 +24,13 @@ public class Sides1_chickenWingsBbq extends AppCompatActivity {
     Button addToCart;
     DatabaseReference dbRef;
     CartAdd crt;
-    String itemNo = "1";
+    String itemNo = "2";
     String temp = "0718888888";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sides1_chicken_wings_bbq);
+        setContentView(R.layout.activity_sides2_chicken_wings_garlic);
 
         //assign IDs to variables
         vName = findViewById(R.id.itemName);
@@ -41,6 +41,7 @@ public class Sides1_chickenWingsBbq extends AppCompatActivity {
 
         //create java object
         crt = new CartAdd();
+
 
 
         //back button redirect to the home page
@@ -54,6 +55,7 @@ public class Sides1_chickenWingsBbq extends AppCompatActivity {
 
             }
         });
+
 
         //add to cart method
         addToCart.setOnClickListener(new View.OnClickListener() {

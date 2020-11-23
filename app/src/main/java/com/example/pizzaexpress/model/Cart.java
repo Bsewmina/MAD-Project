@@ -1,13 +1,21 @@
-package com.example.pizzaexpress;
+package com.example.pizzaexpress.model;
 
-public class CartAdd {
+public class Cart {
+    private String itmNo;
     private String itmName;
     private String price;
     private String size;
     private String qty;
-    private String itmNo;
 
-    public CartAdd() {
+    public Cart() {
+    }
+
+    public Cart(String itmName, String price, String size, String qty, String itmNo) {
+        this.itmName = itmName;
+        this.price = price;
+        this.size = size;
+        this.qty = qty;
+        this.itmNo = itmNo;
     }
 
     public String getItmName() {
